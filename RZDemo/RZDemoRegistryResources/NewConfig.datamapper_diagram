@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:datamapper="http:///org/wso2/developerstudio/eclipse/gmf/datamapper" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_q6wwQKLeEeurwMuPM6-ycw" type="DataMapper" name="NewConfig.datamapper_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_q-RXQKLeEeurwMuPM6-ycw" type="2002" fontName="Roboto">
+    <children xmi:type="notation:Shape" xmi:id="_sNdHMKLeEeurwMuPM6-ycw" type="3002" fontName="Roboto">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sNdHMqLeEeurwMuPM6-ycw" type="5002"/>
+      <children xmi:type="notation:Shape" xmi:id="_sNjN0KLeEeurwMuPM6-ycw" type="3003" fontName="Roboto">
+        <children xmi:type="notation:DecorationNode" xmi:id="_sNjN0qLeEeurwMuPM6-ycw" type="5001"/>
+        <element xmi:type="datamapper:TreeNode" href="NewConfig.datamapper#//@input/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sNjN0aLeEeurwMuPM6-ycw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_sNjN06LeEeurwMuPM6-ycw" type="3003" fontName="Roboto">
+        <children xmi:type="notation:DecorationNode" xmi:id="_sNj04KLeEeurwMuPM6-ycw" type="5001"/>
+        <element xmi:type="datamapper:TreeNode" href="NewConfig.datamapper#//@input/@treeNode.0/@node.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sNjN1KLeEeurwMuPM6-ycw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_sNj04aLeEeurwMuPM6-ycw" type="3003" fontName="Roboto">
+        <children xmi:type="notation:DecorationNode" xmi:id="_sNj046LeEeurwMuPM6-ycw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_sNtl4KLeEeurwMuPM6-ycw" type="3003" fontName="Roboto">
+          <children xmi:type="notation:DecorationNode" xmi:id="_sNtl4qLeEeurwMuPM6-ycw" type="5001"/>
+          <element xmi:type="datamapper:TreeNode" href="NewConfig.datamapper#//@input/@treeNode.0/@node.2/@node.0"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sNtl4aLeEeurwMuPM6-ycw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_sNtl46LeEeurwMuPM6-ycw" type="3003" fontName="Roboto">
+          <children xmi:type="notation:DecorationNode" xmi:id="_sNtl5aLeEeurwMuPM6-ycw" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_sN0TkKLeEeurwMuPM6-ycw" type="3020" fontName="Roboto">
+            <element xmi:type="datamapper:InNode" href="NewConfig.datamapper#//@input/@treeNode.0/@node.2/@node.1/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sN0TkaLeEeurwMuPM6-ycw" x="-11" y="-9"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_sN0TkqLeEeurwMuPM6-ycw" type="3019" fontName="Roboto">
+            <element xmi:type="datamapper:OutNode" href="NewConfig.datamapper#//@input/@treeNode.0/@node.2/@node.1/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sN0Tk6LeEeurwMuPM6-ycw"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="NewConfig.datamapper#//@input/@treeNode.0/@node.2/@node.1"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sNtl5KLeEeurwMuPM6-ycw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_sNtl5qLeEeurwMuPM6-ycw" type="3003" fontName="Roboto">
+          <children xmi:type="notation:DecorationNode" xmi:id="_sNtl6KLeEeurwMuPM6-ycw" type="5001"/>
+          <children xmi:type="notation:Shape" xmi:id="_sN2IwKLeEeurwMuPM6-ycw" type="3020" fontName="Roboto">
+            <element xmi:type="datamapper:InNode" href="NewConfig.datamapper#//@input/@treeNode.0/@node.2/@node.2/@inNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sN2IwaLeEeurwMuPM6-ycw" x="-11" y="-9"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_sN2IwqLeEeurwMuPM6-ycw" type="3019" fontName="Roboto">
+            <element xmi:type="datamapper:OutNode" href="NewConfig.datamapper#//@input/@treeNode.0/@node.2/@node.2/@outNode"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sN2Iw6LeEeurwMuPM6-ycw"/>
+          </children>
+          <element xmi:type="datamapper:TreeNode" href="NewConfig.datamapper#//@input/@treeNode.0/@node.2/@node.2"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sNtl56LeEeurwMuPM6-ycw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_sNuM8KLeEeurwMuPM6-ycw" type="3020" fontName="Roboto">
+          <element xmi:type="datamapper:InNode" href="NewConfig.datamapper#//@input/@treeNode.0/@node.2/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sNuM8aLeEeurwMuPM6-ycw" x="-1" y="-11"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_sNuM8qLeEeurwMuPM6-ycw" type="3019" fontName="Roboto">
+          <element xmi:type="datamapper:OutNode" href="NewConfig.datamapper#//@input/@treeNode.0/@node.2/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sNuM86LeEeurwMuPM6-ycw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="NewConfig.datamapper#//@input/@treeNode.0/@node.2"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sNj04qLeEeurwMuPM6-ycw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_sNj05KLeEeurwMuPM6-ycw" type="3020" fontName="Roboto">
+        <element xmi:type="datamapper:InNode" href="NewConfig.datamapper#//@input/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sNj05aLeEeurwMuPM6-ycw" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_sNj05qLeEeurwMuPM6-ycw" type="3019" fontName="Roboto">
+        <element xmi:type="datamapper:OutNode" href="NewConfig.datamapper#//@input/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sNj056LeEeurwMuPM6-ycw"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="NewConfig.datamapper#//@input/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sNdHMaLeEeurwMuPM6-ycw"/>
+    </children>
+    <element xmi:type="datamapper:Input" href="NewConfig.datamapper#//@input"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q-RXQaLeEeurwMuPM6-ycw" width="250" height="160"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_q-R-UKLeEeurwMuPM6-ycw" type="2003" fontName="Roboto">
+    <children xmi:type="notation:Shape" xmi:id="_uWLHMKLeEeurwMuPM6-ycw" type="3011" fontName="Roboto">
+      <children xmi:type="notation:DecorationNode" xmi:id="_uWLHMqLeEeurwMuPM6-ycw" type="5003"/>
+      <children xmi:type="notation:Shape" xmi:id="_uWP_sKLeEeurwMuPM6-ycw" type="3003" fontName="Roboto">
+        <children xmi:type="notation:DecorationNode" xmi:id="_uWQmwKLeEeurwMuPM6-ycw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_uWR04KLeEeurwMuPM6-ycw" type="3020" fontName="Roboto">
+          <element xmi:type="datamapper:InNode" href="NewConfig.datamapper#//@output/@treeNode.0/@node.0/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uWR04aLeEeurwMuPM6-ycw" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_uWR04qLeEeurwMuPM6-ycw" type="3019" fontName="Roboto">
+          <element xmi:type="datamapper:OutNode" href="NewConfig.datamapper#//@output/@treeNode.0/@node.0/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uWR046LeEeurwMuPM6-ycw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="NewConfig.datamapper#//@output/@treeNode.0/@node.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uWP_saLeEeurwMuPM6-ycw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uWQmwaLeEeurwMuPM6-ycw" type="3003" fontName="Roboto">
+        <children xmi:type="notation:DecorationNode" xmi:id="_uWQmw6LeEeurwMuPM6-ycw" type="5001"/>
+        <children xmi:type="notation:Shape" xmi:id="_uWTqEKLeEeurwMuPM6-ycw" type="3020" fontName="Roboto">
+          <element xmi:type="datamapper:InNode" href="NewConfig.datamapper#//@output/@treeNode.0/@node.1/@inNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uWTqEaLeEeurwMuPM6-ycw" x="-10" y="4"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_uWTqEqLeEeurwMuPM6-ycw" type="3019" fontName="Roboto">
+          <element xmi:type="datamapper:OutNode" href="NewConfig.datamapper#//@output/@treeNode.0/@node.1/@outNode"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uWTqE6LeEeurwMuPM6-ycw"/>
+        </children>
+        <element xmi:type="datamapper:TreeNode" href="NewConfig.datamapper#//@output/@treeNode.0/@node.1"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uWQmwqLeEeurwMuPM6-ycw"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uWQmxKLeEeurwMuPM6-ycw" type="3020" fontName="Roboto">
+        <element xmi:type="datamapper:InNode" href="NewConfig.datamapper#//@output/@treeNode.0/@inNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uWQmxaLeEeurwMuPM6-ycw" x="-1" y="-11"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_uWQmxqLeEeurwMuPM6-ycw" type="3019" fontName="Roboto">
+        <element xmi:type="datamapper:OutNode" href="NewConfig.datamapper#//@output/@treeNode.0/@outNode"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uWQmx6LeEeurwMuPM6-ycw"/>
+      </children>
+      <element xmi:type="datamapper:TreeNode" href="NewConfig.datamapper#//@output/@treeNode.0"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uWLHMaLeEeurwMuPM6-ycw"/>
+    </children>
+    <element xmi:type="datamapper:Output" href="NewConfig.datamapper#//@output"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q-R-UaLeEeurwMuPM6-ycw" x="310" width="250" height="160"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_q6wwQaLeEeurwMuPM6-ycw"/>
+  <element xmi:type="datamapper:DataMapperRoot" href="NewConfig.datamapper#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_vbXNoKLeEeurwMuPM6-ycw" type="4001" source="_sN2IwqLeEeurwMuPM6-ycw" target="_uWR04KLeEeurwMuPM6-ycw">
+    <styles xmi:type="notation:FontStyle" xmi:id="_vbXNoaLeEeurwMuPM6-ycw" fontName="Roboto"/>
+    <element xmi:type="datamapper:DataMapperLink" href="NewConfig.datamapper#//@input/@treeNode.0/@node.2/@node.2/@outNode/@outgoingLink.0"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vbXNoqLeEeurwMuPM6-ycw" points="[-2, 0, -252, 95]$[248, -95, -2, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vbgXkKLeEeurwMuPM6-ycw" id="CENTER"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vbgXkaLeEeurwMuPM6-ycw" id="CENTER"/>
+  </edges>
+</notation:Diagram>

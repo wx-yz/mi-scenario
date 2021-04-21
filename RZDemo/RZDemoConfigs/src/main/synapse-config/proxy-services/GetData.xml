@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxy name="GetData" startOnLoad="true" transports="http https" xmlns="http://ws.apache.org/ns/synapse">
+    <target>
+        <inSequence>
+            <property expression="json-eval($.accessToken)" name="accessToken" scope="default" type="STRING"/>
+            <property expression="json-eval($.apiUrl)" name="apiUrl" scope="default" type="STRING"/>
+            <property expression="json-eval($.queryString)" name="queryString" scope="default" type="STRING"/>
+            <property expression="json-eval($.clientId)" name="clientId" scope="default" type="STRING"/>
+            <property expression="json-eval($.refreshToken)" name="refreshToken" scope="default" type="STRING"/>
+            <property expression="json-eval($.clientSecret)" name="clientSecret" scope="default" type="STRING"/>
+            <property expression="json-eval($.hostName)" name="hostName" scope="default" type="STRING"/>
+            <property expression="json-eval($.apiVersion)" name="apiVersion" scope="default" type="STRING"/>
+            <property expression="json-eval($.registryPath)" name="registryPath" scope="default" type="STRING"/>
+            <property expression="json-eval($.intervalTime)" name="intervalTime" scope="default" type="STRING"/>
+            <property expression="json-eval($.blocking)" name="blocking" scope="default" type="STRING"/>
+            <salesforcerest.init>
+                <accessToken>{$ctx:accessToken}</accessToken>
+                <apiVersion>{$ctx:apiVersion}</apiVersion>
+                <hostName>{$ctx:hostName}</hostName>
+                <refreshToken>{$ctx:refreshToken}</refreshToken>
+                <clientSecret>{$ctx:clientSecret}</clientSecret>
+                <clientId>{$ctx:clientId}</clientId>
+                <apiUrl>{$ctx:apiUrl}</apiUrl>
+                <blocking>{$ctx:blocking}</blocking>
+            </salesforcerest.init>
+            <log level="full" separator=","/>
+            <salesforcerest.query>
+                <queryString>{$ctx:queryString}</queryString>
+            </salesforcerest.query>
+            <log level="full"/>
+            <datamapper config="gov:datamapper/NewConfig.dmc" inputSchema="gov:datamapper/NewConfig_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/NewConfig_outputSchema.json" outputType="JSON" xsltStyleSheet="gov:datamapper/NewConfig_xsltStyleSheet.xml"/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </target>
+</proxy>

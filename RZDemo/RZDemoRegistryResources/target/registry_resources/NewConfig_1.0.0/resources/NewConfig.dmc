@@ -1,0 +1,16 @@
+map_S_root_S_root = function(){ 
+var outputroot={};
+
+var count_i_records_777b16d1_1077_4768_a7f8_72f45201b7aa = 0;
+outputroot =  [];
+
+for(i_records_777b16d1_1077_4768_a7f8_72f45201b7aa in inputroot.records){
+outputroot[count_i_records_777b16d1_1077_4768_a7f8_72f45201b7aa] =  {};
+outputroot[count_i_records_777b16d1_1077_4768_a7f8_72f45201b7aa].AccountName = inputroot.records[i_records_777b16d1_1077_4768_a7f8_72f45201b7aa].Name;
+
+count_i_records_777b16d1_1077_4768_a7f8_72f45201b7aa++;
+}
+return outputroot;
+};
+
+
